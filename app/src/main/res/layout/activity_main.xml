@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FAFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:paddingLeft="40dp"
+            android:textColor="#444444"
+            android:textSize="20sp"
+            android:fontFamily="@font/montserrat_bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp">
+
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="+7"
+                android:enabled="false"
+                android:textColor="#1f1f1f"/>
+            
+            <EditText
+                android:id="@+id/phoneNumberEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:enabled="true"
+                android:textColor="#1f1f1f"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:background="#6372FF"
+            android:text="Login"
+            android:fontFamily="@font/montserrat_bold"
+            android:textAllCaps="false"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

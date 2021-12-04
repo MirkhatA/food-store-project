@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "661280449636",
+    "project_id": "food-app-qelp",
+    "storage_bucket": "food-app-qelp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661280449636:android:bf64f1ff0033ea0cfeab71",
+        "android_client_info": {
+          "package_name": "com.mirkhat.foodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661280449636-np7io2due8qs6o3vhc5nalrmsd4ppb6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1JoHAO5JEExdve_6FKJ9rOI0Tj5fZvfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661280449636-np7io2due8qs6o3vhc5nalrmsd4ppb6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

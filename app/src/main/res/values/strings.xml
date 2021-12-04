@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="login">Логин</string>
+    <string name="ic_verify">Подтвердить телефон</string>
+    <string name="verify">Подтвердить</string>
+    <string name="logout">Выйти</string>
+</resources>
